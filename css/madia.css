@@ -1,0 +1,29 @@
+@media screen and (max-width: 300px){
+    .box {
+        /* width: 150px;
+        height: 100px; */
+        width: 350px;
+        height: 300px;
+    }
+    .col{
+        width: 90px;
+        height: 40px;
+      }
+    .capatcha-text {
+        left: 30%;
+        top: 47%;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 1px;
+      }
+    h2{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 280px){
+    .capatcha-text {
+        left: 27%;
+        top: 47%;
+        font-size: 17px;
+      }
+}

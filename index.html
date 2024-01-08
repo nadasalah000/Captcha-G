@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captcha Generator</title>
+  <!-- & icon -->
+  <link rel="icon" href="bg.png">
+  <!-- & font -->
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Alegreya:wght@700&family=Amatic+SC:wght@700&family=Inter&family=Nanum+Gothic+Coding&family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <!-- & animation -->
+  <link rel="stylesheet" href="css/animation.css">
+  <!-- & fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- & bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- & main -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- & media -->
+  <link rel="stylesheet" href="css/madia.css">
+</head>
+<body>
+  <div class="container bg-white">
+    <div class="box">
+      <div class="wo">
+        <h2 class="text ms-3">Captcha Generator</h2>
+        <div class="d-flex  mx-auto">
+          <div class="capatcha-box">
+             <div class="col">
+              <span class="capatcha-text" id="captchaText"></span>
+             </div>
+              
+          </div>
+          <button type="button" class="btn btnn ms-1" id="try">
+            <i class="fa-solid fa-rotate fa-spin"></i>
+          </button>
+        </div>
+
+        <form class=" mx-auto position-relative py-2">
+          <input type="text" class="form-control border-in" placeholder="Enter Capatcha" id="input">
+          <button class="btn btnn" id="check" type="button">Check</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
